@@ -58,6 +58,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Powerhint
+EAS_POWERHINT_VARIANT := sdm636
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
