@@ -62,7 +62,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    TulipNoCutoutOverlay
 
 # Powerhint
 EAS_POWERHINT_VARIANT := sdm636
