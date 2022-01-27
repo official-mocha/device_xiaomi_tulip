@@ -15,6 +15,11 @@ $(call inherit-product, vendor/komodo/config/common.mk)
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
+# Komodo
+KOMODO_OFFICIAL := true
+KOMODO_GAPPS_TYPE := gapps
+KOMODO_BUILD_TYPE := OFFICIAL
+
 # Device Info
 PRODUCT_NAME := komodo_tulip
 PRODUCT_DEVICE := tulip
