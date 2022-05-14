@@ -163,4 +163,10 @@
         C-297.156539,0.363960295 -299.941007,0 -303,0
         Z
     </string>
+
+    <!-- Whether device has a big physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Whether device has a big physical display cutout -->
+    <bool name="config_bigPhysicalDisplayCutout">true</bool>
 </resources>
