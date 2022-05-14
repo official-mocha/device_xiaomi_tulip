@@ -196,3 +196,8 @@ ro.soc.model=SDM660
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# ZRAM Writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
