@@ -19,18 +19,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common VoidUI stuff.
+# Inherit some common Nameless-AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# VoidUI Properties
-IS_PHONE := true
+# Aosp Properties
+CUSTOM_BUILD_TYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-VOID_MAINTAINER := Muti605
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
